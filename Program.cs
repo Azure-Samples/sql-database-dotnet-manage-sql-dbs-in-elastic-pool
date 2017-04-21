@@ -2,8 +2,8 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using Microsoft.Azure.Management.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent.Core;
+using Microsoft.Azure.Management.ResourceManager.Fluent;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Core;
 using Microsoft.Azure.Management.Samples.Common;
 using Microsoft.Azure.Management.Sql.Fluent.Models;
 using System;
@@ -69,6 +69,7 @@ namespace ManageSqlDatabaseInElasticPool
                 // Change DTUs in the elastic pools.
                 elasticPool = elasticPool.Update()
                         .WithDtu(200)
+                        .WithStorageCapacity(204800)
                         .WithDatabaseDtuMin(10)
                         .WithDatabaseDtuMax(50)
                         .Apply();
@@ -212,7 +213,7 @@ namespace ManageSqlDatabaseInElasticPool
 
                 var azure = Azure
                     .Configure()
-                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.BASIC)
+                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
                     .Authenticate(credentials)
                     .WithDefaultSubscription();
 
