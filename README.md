@@ -4,7 +4,7 @@ platforms: .Net
 author: anudeepsharma
 ---
 
-#Getting Started with Sql - Manage Sql Database In Elastic Pool - in .Net #
+# Getting Started with Sql - Manage Sql Database In Elastic Pool - in .Net #
 
       Azure Storage sample for managing SQL Database -
        - Create a SQL Server with elastic pool and 2 databases
