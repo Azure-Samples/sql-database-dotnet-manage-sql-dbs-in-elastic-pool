@@ -1,0 +1,4 @@
+C:\Sources\dotnet-samples\sql-database-dotnet-manage-sql-dbs-in-elastic-pool\bin\Debug\net452\ManageSqlDatabaseInElasticPool.runtimeconfig.json
+C:\Sources\dotnet-samples\sql-database-dotnet-manage-sql-dbs-in-elastic-pool\bin\Debug\net452\ManageSqlDatabaseInElasticPool.runtimeconfig.dev.json
+C:\Sources\dotnet-samples\sql-database-dotnet-manage-sql-dbs-in-elastic-pool\obj\Debug\net452\ManageSqlDatabaseInElasticPool.csproj.ManageSqlDatabaseInElasticPool.exe.config
+C:\Sources\dotnet-samples\sql-database-dotnet-manage-sql-dbs-in-elastic-pool\obj\Debug\net452\ManageSqlDatabaseInElasticPool.csproj.CoreCompileInputs.cache
