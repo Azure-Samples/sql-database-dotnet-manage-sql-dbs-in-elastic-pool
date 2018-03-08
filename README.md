@@ -1,7 +1,7 @@
 ---
 services: Sql
 platforms: .Net
-author: anudeepsharma
+author: milismsft
 ---
 
 # Getting Started with Sql - Manage Sql Database In Elastic Pool - in .Net #
