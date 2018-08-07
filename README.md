@@ -1,10 +1,10 @@
 ---
 services: Sql
-platforms: .Net
+platforms: dotnet
 author: milismsft
 ---
 
-# Getting Started with Sql - Manage Sql Database In Elastic Pool - in .Net #
+# Getting started on managing SQL databases in elastic pools in C# #
 
       Azure Storage sample for managing SQL Database -
        - Create a SQL Server with elastic pool and 2 databases
@@ -22,7 +22,7 @@ author: milismsft
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-sql-dbs-in-elastic-pool.git
 
