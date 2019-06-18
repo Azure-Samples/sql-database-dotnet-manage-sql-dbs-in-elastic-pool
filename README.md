@@ -1,7 +1,7 @@
 ---
 services: Sql
 platforms: dotnet
-author: milismsft
+author: yaohaizh
 ---
 
 # Getting started on managing SQL databases in elastic pools in C# #
@@ -22,7 +22,7 @@ author: milismsft
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-sql-dbs-in-elastic-pool.git
 
