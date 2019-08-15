@@ -4,23 +4,23 @@ languages:
 - csharp
 products:
 - azure
-services: Sql
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Sql
+- platforms: dotnet
 ---
 
 # Getting started on managing SQL databases in elastic pools in C# #
 
-      Azure Storage sample for managing SQL Database -
-       - Create a SQL Server with elastic pool and 2 databases
-       - Create another database and add it to elastic pool through database update
-       - Create one more database and add it to elastic pool through elastic pool update.
-       - List and print databases in the elastic pool
-       - Remove a database from elastic pool.
-       - List and print elastic pool activities
-       - List and print elastic pool database activities
-       - Add another elastic pool in existing SQL Server.
-       - Delete database, elastic pools and SQL Server
+ Azure Storage sample for managing SQL Database -
+  - Create a SQL Server with elastic pool and 2 databases
+  - Create another database and add it to elastic pool through database update
+  - Create one more database and add it to elastic pool through elastic pool update.
+  - List and print databases in the elastic pool
+  - Remove a database from elastic pool.
+  - List and print elastic pool activities
+  - List and print elastic pool database activities
+  - Add another elastic pool in existing SQL Server.
+  - Delete database, elastic pools and SQL Server
 
 
 ## Running this Sample ##
