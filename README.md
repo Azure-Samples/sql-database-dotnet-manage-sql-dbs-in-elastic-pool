@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Sql
 - platforms: dotnet
+description: "Azure Storage sample for managing SQL Database."
 ---
 
 # Getting started on managing SQL databases in elastic pools in C# #
