@@ -133,12 +133,12 @@ namespace ManageSqlDatabaseInElasticPool
                     },
                 };
                 elasticPool = (await elasticPool.UpdateAsync(WaitUntil.Completed, changeData)).Value;
-                Utilities.Log($"Change DTUs in the elastic pools {elasticPool}");
+                Utilities.Log($"Change DTUs in the elastic pools {elasticPool.Data.Name}");
 
                 Utilities.Log("Start ------- Current databases in the elastic pool");
                 foreach (var databaseInElasticPool in elasticPool.GetDatabases().ToList())
                 {
-                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.DatabaseId}");
+                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.Name}");
                 }
                 Utilities.Log("End --------- Current databases in the elastic pool");
 
@@ -154,7 +154,7 @@ namespace ManageSqlDatabaseInElasticPool
                 Utilities.Log("Start ------- Current databases in the elastic pool");
                 foreach (var databaseInElasticPool in elasticPool.GetDatabases().ToList())
                 {
-                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.DatabaseId}");
+                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.Name}");
                 }
                 Utilities.Log("End --------- Current databases in the elastic pool");
 
@@ -186,7 +186,7 @@ namespace ManageSqlDatabaseInElasticPool
                 Utilities.Log("Start ------- Current databases in the elastic pool");
                 foreach (var databaseInElasticPool in elasticPool.GetDatabases().ToList())
                 {
-                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.DatabaseId}");
+                    Utilities.Log($"Current databases in the elastic pool with databasename: {databaseInElasticPool.Data.Name}");
                 }
                 Utilities.Log("End --------- Current databases in the elastic pool");
 
